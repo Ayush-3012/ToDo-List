@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.Todo-List-Container {
+  background-color: rgb(127, 255, 212);
+  width: 100vh;
+  height: fit-content;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid rgb(13, 183, 183);
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+.Todo-List-Container h1 {
+  padding: 1%;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: lightcoral;
+  text-decoration: underline;
+}
+
+.todo-form {
+  background-color: rgb(255, 205, 255);
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.todo-form input {
+  text-align: center;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 80vh;
+  margin: 10px 20px 10px 0px;
+  box-shadow: 5px 7px 7px rgb(11, 80, 57);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+  color: rgb(197, 88, 88);
+}
+
+.todo-form button {
+  background-color: azure;
+  color: coral;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 55px;
+  width: 10vh;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 5px;
+  box-shadow: 5px 7px 7px rgb(11, 80, 57);
+}
+
+.todo-form button:hover {
+  color: azure;
+  background-color: coral;
+}
+
+.task-div {
+  background-color: rgb(127, 255, 150);
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-text {
+  font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.icons {
+  font-size: 3rem;
+  gap: 2.5rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.hide {
+  display: none;
+}
